@@ -59,10 +59,13 @@ h1,h2{
 }
 #subcontent h2 {
 	font-size: 16px;
-	margin-top: 10px;
+	margin-top: 20px;
 }
 #subcontent p {
 	font-size: 12px;
+}
+#subcontent a {
+	color: #51473d;
 }
 #subcontent a:visited{
 	color: #51473d;
