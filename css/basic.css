@@ -1,1 +1,109 @@
 /* Denna fil får du editera för att lösa uppgiften. Du får INTE ändra i html-filen. */
+*{
+	margin: 0;
+	padding: 0;
+}
+p{
+	font-family: Verdana;
+	font-size: 14px;
+	line-height: 18px;
+	color: #937066;
+}
+h1,h2{
+	font-family: 'Times New Roman';
+	color: #797066;
+}
+#container{
+	width: 600px;
+	margin: 20px auto;
+}
+#topbar{
+	background-color: #51473d;
+	text-align: right;
+	color: #eae7d2;
+	font-size: 12px;
+	padding: 2px 0;
+}
+#menu{
+	background-image: url('pics/coffey.jpg');
+	background-repeat: no-repeat;
+	background-color: #51473d;
+	height: 248px;
+}
+#content{
+	background-color: #eae7d2;
+	padding-top: 15px;
+}
+#maincontent{
+	display: inline-block;
+	width: 63%;
+	float: left;
+	padding-right: 0.5%;
+	border-right: dashed 1px;
+}
+#subcontent{
+	display: inline-block;
+	width: 35%;
+	margin-left: 1%;
+}
+#maincontent img {
+	float: left;
+	margin-right: 5px;
+}
+#subcontent ul {
+	list-style: none;
+}
+#subcontent h1 {
+	font-size: 18px;
+	color: #51473d;
+}
+#subcontent h2 {
+	font-size: 16px;
+	margin-top: 10px;
+}
+#subcontent p {
+	font-size: 12px;
+}
+#subcontent a:visited{
+	color: #51473d;
+}
+#menu ul {
+	display: inline-block;
+	margin-top: 210px;
+	margin-left: 20px;
+}
+#menu li {
+	display: inline-block;
+	background-color: #797066;
+	padding: 10px 20px;
+}
+#menu a {
+	color: #eae7d2;
+	text-transform:  capitalize;
+	text-decoration: none;
+	font-size: 12px;
+	font-family: Verdana;
+	display: none;
+}
+#menu li:hover{
+	background-color: #9c9084;
+}
+#menu li a {
+	display: inline;
+}
+.active{
+	background-color: #eae7d2 !important;
+
+}
+.active a{
+	color: #9e8076 !important;
+
+}
+#bottomcontent{
+	font-style : italic;
+	width: 100%;
+	margin-top: 30px;
+	color: #937066;
+	font-size: 14px;
+	margin-left: 20px;
+}
