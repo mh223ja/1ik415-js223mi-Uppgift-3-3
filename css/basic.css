@@ -1,19 +1,7 @@
 /* Denna fil får du editera för att lösa uppgiften. Du får INTE ändra i html-filen. */
-body {
-	margin: 0;
-	padding: 0;
-	}
-p{
-	font-family: Verdana;
-	font-size: 14px;
-	line-height: 18px;
-	color: #937066;
-}
-h1,h2{
-	font-family: 'Times New Roman';
-	color: #797066;
-          
-}
+
+
+
 #container{
 	width: 600px;
 	margin: auto;
@@ -30,6 +18,8 @@ h1,h2{
 	padding: 2px 0;
 	font-style: italic;
 	width: 100%;
+	height: auto;
+	font: Verdana;
 	
 	
 }
@@ -42,19 +32,24 @@ h1,h2{
 #content{
 	background-color: #eae7d2;
 	padding-top: 15px;
+	font-family: Verdana, Times New Roman;
+	font-size: 12px;
+	color: #797066;
 }
 #maincontent{
-	display: inline-block;
 	width: 63%;
 	padding-right: 0.5%;
 	border-right: dashed 1px;
+	float: left;
+	line-height: 1.5;
 }
           
 #subcontent{
-	display: inline-block;
 	width: 35%;
 	margin-left: 65%;
            padding-top: 5px;
+           margin-right:0;
+           float: right;
 }
 #maincontent img {
 	float: left;
@@ -62,6 +57,8 @@ h1,h2{
 }
 #subcontent ul {
 	list-style: none;
+
+	
 }
 #subcontent h1 {
 	font-size: 18px;
