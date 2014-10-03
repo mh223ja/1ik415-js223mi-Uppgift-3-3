@@ -8,6 +8,10 @@
 	border: 1px;
 	border-style: solid;
 	border-color: #937066;
+	background-image: url('pics/coffey.jpg');
+	background-repeat: no-repeat;
+	background-color: #51473d;
+	
           
 }
 #topbar{
@@ -24,10 +28,14 @@
 	
 }
 #menu{
-	background-image: url('pics/coffey.jpg');
-	background-repeat: no-repeat;
-	background-color: #51473d;
-	height: 248px;
+
+
+	padding-left:10px;
+	list-style: none;
+               
+	
+
+	
 }
 #content{
 	background-color: #eae7d2;
@@ -56,7 +64,7 @@
            background-color: #EAE7D2;
            font-size: 10px;
            padding-left: 5px;
-           
+           margin-left: 5px;
 }
 
 #bottomcontent{
@@ -93,15 +101,16 @@
 #subcontent a:visited{
 	color: #51473d;
 }
-#menu ul {
+#menu ul  {
 	display: inline-block;
-	margin-top: 210px;
-	margin-left: 20px;
+	color: white;
+	margin-left: 5px;
+	margin-top: 215px;
 }
 #menu li {
 	display: inline-block;
 	background-color: #797066;
-	padding: 10px 20px;
+	padding:5px 10px 5px 5px;
 }
 #menu a {
 	color: #eae7d2;
@@ -118,10 +127,10 @@
 	display: inline;
 }
 .active{
-	background-color: #eae7d2 !important;
+	background-color: #eae7d2;
 
 }
 .active a{
-	color: #9e8076 !important;
+	color: #9e8076;
 
 }
