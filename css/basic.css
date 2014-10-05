@@ -9,7 +9,7 @@
 	background-image: url('pics/coffey.jpg');
 	background-repeat: no-repeat;
 	background-color: #3F372E;
-	background-size: 100% 38%;
+	background-size: 100% 36%;
 }
 #topbar {
 	background-color: #3F372E;
@@ -44,7 +44,7 @@
 	font-family: Verdana, Times New Roman;
 }
 #maincontent h1 {
-	font-size: 25px;
+	font-size: 30px;
 	font-weight: normal;
 	font-family: Times New Roman;
 }
@@ -71,6 +71,8 @@
 }
 #subcontent ul {
 	list-style: none;
+	margin: 0;
+	padding: 0;
 }
 #subcontent h1 {
 	font-size: 15px;
@@ -92,6 +94,8 @@
 #subcontent a:visited {
 	color: #5655D53;
 }
+
+
 #menu ul {
 	display: inline-block;
 	color: white;
