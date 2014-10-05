@@ -11,6 +11,7 @@
 	background-image: url('pics/coffey.jpg');
 	background-repeat: no-repeat;
 	background-color: #3F372E;
+	background-size: 100% 38%;
 	
           
 }
@@ -23,7 +24,7 @@
 	font-style: italic;
 	width: 600px;
 	height: auto;
-	font: Verdana;
+	font: Verdana, Times New Roman;
 	
 	
 }
@@ -36,13 +37,14 @@
 	color: #655D53;
 	line-height: 1.5;
 	overflow: auto;
-	margin-top: 2.7%;
+	margin-top: -2.7%;
 }
 
 #maincontent{
 	width: 60%;
 	padding-right: 0.5%;
 	border-right: dashed 1px;
+	border-right-color: silver;
 	float: left;
 	background-color: #E5E2C8;
 	margin-left: 0;
