@@ -1,7 +1,7 @@
 /* Denna fil får du editera för att lösa uppgiften. Du får INTE ändra i html-filen. */
 
 #container {
-	width: 600px;
+	width: 800px;
 	margin: auto;
 	border: 1px;
 	border-style: solid;
@@ -18,7 +18,7 @@
 	font-size: 10px;
 	padding: 2px 0;
 	font-style: italic;
-	width: 600px;
+	width: 800px;
 	height: auto;
 	font: Verdana, Times New Roman;
 }
@@ -29,7 +29,7 @@
 	color: #655D53;
 	line-height: 1.8;
 	overflow: auto;
-	margin-top: -2.7%;
+	margin-top: -2.0%;
 }
 #maincontent {
 	width: 60%;
