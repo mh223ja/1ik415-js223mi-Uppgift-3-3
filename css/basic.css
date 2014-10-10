@@ -1,3 +1,4 @@
+
 /* Denna fil får du editera för att lösa uppgiften. Du får INTE ändra i html-filen. */
 
 *{
@@ -22,7 +23,7 @@
 	font-size: 10px;
 	padding: 2px 0;
 	font-style: italic;
-	width: 800px;
+	width: 600px;
 	height: auto;
 	font: Verdana, Times New Roman;
 }
@@ -106,9 +107,11 @@
 #menu ul {
 	display: inline-block;
 	color: white;
-
-	margin-top: 222px;
+ margin-top: 200px;
+	margin-left: 20px;
+	padding-bottom: 15px;
 }
+
 #menu li {
 	display: inline-block;
 	background-color: #655D53;
@@ -134,8 +137,9 @@
 	padding: 5px;
 }
 .active {
-	background-color: #E5E2C8;
+	background-color: #E5E2C8 !important;
+	
 }
 .active a {
-	color: #9e8076;
+	color: #9e8076 !important;
 }
