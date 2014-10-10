@@ -1,7 +1,7 @@
 /* Denna fil får du editera för att lösa uppgiften. Du får INTE ändra i html-filen. */
 
 #container {
-	width: 800px;
+	width: 600px;
 	margin: auto;
 	border: 1px;
 	border-style: solid;
@@ -9,7 +9,7 @@
 	background-image: url('pics/coffey.jpg');
 	background-repeat: no-repeat;
 	background-color: #3F372E;
-	background-size: 100% 36%;
+	background-size: 100% 33%;
 }
 #topbar {
 	background-color: #3F372E;
@@ -29,7 +29,7 @@
 	color: #655D53;
 	line-height: 1.8;
 	overflow: auto;
-	margin-top: -2.0%;
+	margin-top: -2.5%;
 }
 #maincontent {
 	width: 60%;
@@ -42,10 +42,12 @@
 	padding-left: 5px;
 	font-size: 12px;
 	font-family: Verdana, Times New Roman;
+	font-weight: 100;
 }
 #maincontent h1 {
-	font-size: 30px;
+	font-size: 32px;
 	font-weight: normal;
+	font-stretch:extra-expanded;
 	font-family: Times New Roman;
 }
 #subcontent {
@@ -73,6 +75,7 @@
 	list-style: none;
 	margin: 0;
 	padding: 0;
+	font-size: 12px;
 }
 #subcontent h1 {
 	font-size: 15px;
@@ -81,7 +84,7 @@
 	font-weight: Normal;
 }
 #subcontent h2 {
-	font-size: 10px;
+	font-size: 12px;
 	font-weight: normal;
 	font-family: verdana;
 }
@@ -99,8 +102,8 @@
 #menu ul {
 	display: inline-block;
 	color: white;
-	margin-left: 5px;
-	margin-top: 215px;
+
+	margin-top: 222px;
 }
 #menu li {
 	display: inline-block;
@@ -123,8 +126,8 @@
 #menu ul li {
 	text-align: center;
 	display: inline-block;
-	width: 100px;
-	padding: 5px
+	width: 80px;
+	padding: 5px;
 }
 .active {
 	background-color: #E5E2C8;
