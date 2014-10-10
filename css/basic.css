@@ -1,5 +1,9 @@
 /* Denna fil får du editera för att lösa uppgiften. Du får INTE ändra i html-filen. */
 
+*{
+	margin:0;
+	padding: 0;
+}
 #container {
 	width: 600px;
 	margin: auto;
@@ -9,7 +13,7 @@
 	background-image: url('pics/coffey.jpg');
 	background-repeat: no-repeat;
 	background-color: #3F372E;
-	background-size: 100% 33%;
+	background-height: 100% 33%;
 }
 #topbar {
 	background-color: #3F372E;
